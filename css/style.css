@@ -1,0 +1,131 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.pedido {
+    background-color: #EF6B54;
+    background-image: url(../img/grid_background.png);
+    padding: 0.25% 0;
+    position: relative;
+    width: 100%;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+.lin {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col {
+    display: inline-block;
+    margin: 0.25%;
+    padding: 0.25%;
+    width: 48.5%;
+    border: 0;
+}
+
+.col_dir {
+    display: inline-block;
+    margin: 0.25%;
+    padding: 0.25%;
+    width: 99%;
+    border: 0;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    font-size: 20px;
+}
+
+.lin_mes {
+    background-color: #57BBEC;
+    font-size: 30PX;
+    margin-top: 0.25%;
+    padding: 0.25%;
+    width: 99%;
+    height: 40px;
+    border: 0;
+    vertical-align: middle;
+}
+
+.contenedor_dia {
+    margin: 0 auto;
+}
+
+.contenido_dia {
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.lin_dia {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#lunes {
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+
+#martes {
+    position: absolute;
+    top: 0;
+    left: 180px;
+}
+
+#miercoles {
+    position: absolute;
+    top: 0;
+    left: 260px;
+}
+
+#jueves {
+    position: absolute;
+    top: 0;
+    left: 340px;
+}
+
+#viernes {
+    position: absolute;
+    top: 0;
+    left: 420px;
+}
+
+.col_dia {
+    margin: 0.25%;
+    padding: 0.25%;
+    width: 15%;
+    border: 2px solid #E8E6E7;
+    border-radius: 50px;
+    font-size: 50px;
+    background-color: #38393D;
+    z-index: -1;
+}
+
+.col_num {
+    margin: 5%;
+    padding: 0.25%;
+    width: 8%;
+    border: 2px solid white;
+    border-radius: 16px;
+    font-size: 16px;
+    background-color: #E8E6E7;
+}
