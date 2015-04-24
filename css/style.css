@@ -1,48 +1,82 @@
-body {
+header {
+    margin-left: 70px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+section {
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    font-size: 30px;
-}
-
-h2 {
-    font-size: 20px;
-}
-
-.pedido {
-    background-color: #EF6B54;
+.contenedor {
     background-image: url(../img/grid_background.png);
-    padding: 0.25% 0;
-    position: relative;
     width: 100%;
+    background-color: #EF6B54;
+    padding-top: 10px;
+    height: 510px;
 }
 
-.container {
-    width: 600px;
-    margin: 0 auto;
+.pedido{
+    width: 640px;
     color: white;
+}
+
+.pedido,
+.comida,
+.footer {
+    margin: 0 auto;
+    position: relative;
+    padding: 0;    
+    text-align: center;
+}
+
+#cantina {
+    font-size: 40px;
+    margin: 0;
+    border-top: 10px;
+}
+
+#informacion,
+#comida {
+    font-size: 20px;
+    margin: 0;    
     text-align: center;
 }
 
 .lin {
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
 
 .col {
     display: inline-block;
-    margin: 0.25%;
-    padding: 0.25%;
-    width: 48.5%;
+    margin: 0;
+    padding: 0;
+    width: 48%;
     border: 0;
+}
+
+#nombre,
+#telefono {
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+#email,
+#zip {
+    margin-bottom: 5px;
+    margin-right: 5px;
 }
 
 .col_dir {
     display: inline-block;
-    margin: 0.25%;
-    padding: 0.25%;
-    width: 99%;
+    margin-bottom: 5px;
+    padding: 0;
+    width: 97%;
     border: 0;
 }
 
@@ -51,81 +85,144 @@ input[type="text"] {
     height: 40px;
     background-color: white;
     font-size: 20px;
-}
-
-.lin_mes {
-    background-color: #57BBEC;
-    font-size: 30PX;
-    margin-top: 0.25%;
-    padding: 0.25%;
-    width: 99%;
-    height: 40px;
+    padding: 0;
+    margin: 0;
     border: 0;
-    vertical-align: middle;
-}
-
-.contenedor_dia {
-    margin: 0 auto;
 }
 
 .contenido_dia {
     position: relative;
-    width: 600px;
+    width: 97%;
     margin: 0 auto;
+    padding: 0;
+    border: 0;
+    background-color: white;
+    height: 290px;
 }
 
-.lin_dia {
-    width: 60%;
-    margin: 0 auto;
-}
-
-#lunes {
-    position: absolute;
-    top: 0;
-    left: 100px;
-}
-
-#martes {
-    position: absolute;
-    top: 0;
-    left: 180px;
-}
-
-#miercoles {
-    position: absolute;
-    top: 0;
-    left: 260px;
-}
-
-#jueves {
-    position: absolute;
-    top: 0;
-    left: 340px;
-}
-
-#viernes {
-    position: absolute;
-    top: 0;
-    left: 420px;
+#enero {
+    background-color: #57BBEC;
+    font-size: 30PX;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
 }
 
 .col_dia {
-    margin: 0.25%;
-    padding: 0.25%;
-    width: 15%;
-    border: 2px solid #E8E6E7;
+    margin-top: 2px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
     border-radius: 50px;
-    font-size: 50px;
+    font-size: 40px;
     background-color: #38393D;
-    z-index: -1;
+    color: white;
 }
 
 .col_num {
-    margin: 5%;
-    padding: 0.25%;
-    width: 8%;
+    margin: 7px;
+    padding: 7px;
+    width: 20px;
+    height: 20px;
+    color: dimgrey;
     border: 2px solid white;
-    border-radius: 16px;
-    font-size: 16px;
+    border-radius: 20px;
+    font-size: 20px;
     background-color: #E8E6E7;
+}
+
+.container {
+    background-color: #E8E6E7;
+    padding: 10px;
+}
+
+.dia1, .dia2, .dia3, .dia4, .dia5 {
+    display: inline-block;
+}
+
+#dia {
+    width: 200px;
+
+}
+#day{
+    margin-left: 75px;
+}
+
+#select{
+    background-color: white;    
+}
+
+
+#ppal, #bebidas, #adicional {
+    margin: 0 20px;
+
+}
+
+#acompanantes, #select, #ensalada {
+    margin: 0 20px;
+    text-align: left;
+}
+
+#ensalada1 {
+   height: 15px;
+   width: 15px;
+   display: inline-block;
+   background-color: white; 
+}
+
+#ensalada2{
+    display: inline-block;
+}
+
+#delivery1 {
+    margin: 0 20px;
+    text-align: left;
+    background-color: #57BBEC;
+    color: white;
+}
+
+
+#delivery2{
+    display: inline-block;
+    background-color: white; 
+    height: 12px;
+    width: 12px;
+    border-radius: 12px;
+}
+
+#continuar{
+    font-size: 40px;
+    width: 250px;
+    height: 50px;
+    background-color: #EF6B54;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.footer {
+    width: 100%;
+    height: 350px;
+}
+
+#term{
+    position: relative;
+    left: 320px;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+    width: 600px;
+    padding-bottom: 20px;
+}
+
+#contact, #terms {
+    display: inline-block;
+    width: 250px;
+    font-size: 22px;
+}
+
+#img{
+    margin-top: 130px;
 }

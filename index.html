@@ -18,80 +18,329 @@
         </div>
     </header>
     <section>
-        <div class="pedido">
-            <div class="container">
-                <div>
-                    <h1>Cantina Semanal</h1>
-                    <h2>Complete la información necesaria para completar el pedido</h2>
-                </div>
+        <div class="contenedor">
+            <div class="pedido">
+                <p id="cantina">Cantina Semanal</p>
+                <p id="informacion">Complete la información necesaria para completar el pedido</p>
                 <div class="lin">
-                    <div class="col">
+                    <div class="col" id="nombre">
                         <input type="text" name="nombre" placeholder="Nombre (requerido)" />
                     </div>
-                    <div class="col">
+                    <div class="col" id="email">
                         <input type="text" email="email" placeholder="Email (requerido)" />
                     </div>
                 </div>
-                <div class="lin">
-                    <div class="col">
-                        <input type="text" telefono="telefono" placeholder="Teléfono" />
-                    </div>
-                    <div class="col">
-                        <input type="text" zip="zip" placeholder="Zip Code" />
-                    </div>
-                </div>
-                <div class="lin">
-                    <div class="col_dir">
-                        <input type="text" dirección="dirección" placeholder="Dirección" />
-                    </div>
-                </div>
-                <div class="lin_mes">
-                    <p>ENERO</p>
-                </div>
-                <div class="contenedor_dia">
-                    <div class="contenido_dia">
-                        <div class="lin_dia" id="lunes">
-                            <div class="col_dia">L</div>
-                            <div class="col_num">1</div>
-                            <div class="col_num">1</div>
-                            <div class="col_num">1</div>
-                            <div class="col_num">1</div>
-                        </div>
-                        <div class="lin_dia" id="martes">
-                            <div class="col_dia">M</div>
-                            <div class="col_num">2</div>
-                            <div class="col_num">2</div>
-                            <div class="col_num">2</div>
-                            <div class="col_num">2</div>
-                        </div>
-                        <div class="lin_dia" id="miercoles">
-                            <div class="col_dia">M</div>
-                            <div class="col_num">3</div>
-                            <div class="col_num">3</div>
-                            <div class="col_num">3</div>
-                            <div class="col_num">3</div>
-                        </div>
-                        <div class="lin_dia" id="jueves">
-                            <div class="col_dia">J</div>
-                            <div class="col_num">4</div>
-                            <div class="col_num">4</div>
-                            <div class="col_num">4</div>
-                            <div class="col_num">4</div>
-                        </div>
-                        <div class="lin_dia" id="viernes">
-                            <div class="col_dia">V</div>
-                            <div class="col_num">5</div>
-                            <div class="col_num">5</div>
-                            <div class="col_num">5</div>
-                            <div class="col_num">5</div>
-                        </div>
-                    </div>
 
+                <div class="col" id="telefono">
+                    <input type="text" telefono="telefono" placeholder="Teléfono" />
                 </div>
-
+                <div class="col" id="zip">
+                    <input type="text" zip="zip" placeholder="Zip Code" />
+                </div>
+                <div class="col_dir">
+                    <input type="text" dirección="dirección" placeholder="Dirección" />
+                </div>
             </div>
-
+            <div class="pedido">
+                <div class="contenido_dia">
+                    <div class="lin" id="enero">ENERO</div>
+                    <div class="dia1">
+                        <div class="col_dia">L</div>
+                        <div class="col_num">1</div>
+                        <div class="col_num">1</div>
+                        <div class="col_num">1</div>
+                        <div class="col_num">1</div>
+                    </div>
+                    <div class="dia2">
+                        <div class="col_dia">M</div>
+                        <div class="col_num">2</div>
+                        <div class="col_num">2</div>
+                        <div class="col_num">2</div>
+                        <div class="col_num">2</div>
+                    </div>
+                    <div class="dia3">
+                        <div class="col_dia">M</div>
+                        <div class="col_num">3</div>
+                        <div class="col_num">3</div>
+                        <div class="col_num">3</div>
+                        <div class="col_num">3</div>
+                    </div>
+                    <div class="dia3">
+                        <div class="col_dia">J</div>
+                        <div class="col_num">4</div>
+                        <div class="col_num">4</div>
+                        <div class="col_num">4</div>
+                        <div class="col_num">4</div>
+                    </div>
+                    <div class="dia4">
+                        <div class="col_dia">V</div>
+                        <div class="col_num">5</div>
+                        <div class="col_num">5</div>
+                        <div class="col_num">5</div>
+                        <div class="col_num">5</div>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
+    <section>
+        <div class="container">
+        <br>
+            <p id="comida">
+                Seleccione la comida que desea para cada semana            
+            </p>
+            <br>
+            <div class="comida">
+                <div class="dia1" id="dia">
+                    <div class="col_dia"  id="day">L</div>
+                    <br>
+                    <div id="ppal"><strong>Comida Principal</strong></div>
+                    <br>
+                    <div id="select">Seleccionar   \/</div>
+                    <br>
+                    <div id="acompanantes"><strong>Acompañantes(3)</strong></div>
+                    <br>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <br>
+                    <div id="adicional"><strong>Adicionales</strong></div>
+                    <br>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <br>
+                    <div id="bebidas"><strong>Bebidas</strong></div>
+                    <br>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <br>
+                    <div id="delivery1">
+                        <div id="ensalada2">Delivery</div>                        
+                        <div id="delivery2"></div>
+                        <div id="delivery2"></div>
+                    </div>
+                    <br>
+                </div>
+                <div class="dia2" id="dia">
+                    <div class="col_dia" id="day">M</div>
+                    <br>
+                    <div id="ppal"><strong>Comida Principal</strong></div>
+                    <br>
+                    <div id="select">Seleccionar   \/</div>
+                    <br>
+                    <div id="acompanantes"><strong>Acompañantes(3)</strong></div>
+                    <br>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <br>
+                    <div id="adicional"><strong>Adicionales</strong></div>
+                    <br>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <br>
+                    <div id="bebidas"><strong>Bebidas</strong></div>
+                    <br>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <br>
+                    <div id="delivery1">
+                        <div id="ensalada2">Delivery</div>                        
+                        <div id="delivery2"></div>
+                        <div id="delivery2"></div>
+                    </div>
+                    <br>
+                </div>
+                <div class="dia3" id="dia">
+                    <div class="col_dia" id="day">M</div>
+                    <br>
+                    <div id="ppal"><strong>Comida Principal</strong></div>
+                    <br>
+                    <div id="select">Seleccionar   \/</div>
+                    <br>
+                    <div id="acompanantes"><strong>Acompañantes(3)</strong></div>
+                    <br>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <br>
+                    <div id="adicional"><strong>Adicionales</strong></div>
+                    <br>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <br>
+                    <div id="bebidas"><strong>Bebidas</strong></div>
+                    <br>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <br>
+                    <div id="delivery1">
+                        <div id="ensalada2">Delivery</div>                        
+                        <div id="delivery2"></div>
+                        <div id="delivery2"></div>
+                    </div>
+                    <br>
+                </div>
+                <div class="dia4" id="dia">
+                    <div class="col_dia" id="day">J</div>
+                    <br>
+                    <div id="ppal"><strong>Comida Principal</strong></div>
+                    <br>
+                    <div id="select">Seleccionar   \/</div>
+                    <br>
+                    <div id="acompanantes"><strong>Acompañantes(3)</strong></div>
+                    <br>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <br>
+                    <div id="adicional"><strong>Adicionales</strong></div>
+                    <br>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <br>
+                    <div id="bebidas"><strong>Bebidas</strong></div>
+                    <br>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <br>
+                    <div id="delivery1">
+                        <div id="ensalada2">Delivery</div>                        
+                        <div id="delivery2"></div>
+                        <div id="delivery2"></div>
+                    </div>
+                    <br>
+                </div>
+                <div class="dia5" id="dia">
+                    <div class="col_dia" id="day">V</div>
+                    <br>
+                    <div id="ppal"><strong>Comida Principal</strong></div>
+                    <br>
+                    <div id="select">Seleccionar   \/</div>
+                    <br>
+                    <div id="acompanantes"><strong>Acompañantes(3)</strong></div>
+                    <br>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <br>
+                    <div id="adicional"><strong>Adicionales</strong></div>
+                    <br>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <br>
+                    <div id="bebidas"><strong>Bebidas</strong></div>
+                    <br>
+                    <div id="ensalada">
+                        <div id="ensalada1"></div>
+                        <div id="ensalada2">Ensalada Mixta</div>
+                    </div>
+                    <br>
+                    <div id="delivery1">
+                        <div id="ensalada2">Delivery</div>                        
+                        <div id="delivery2"></div>
+                        <div id="delivery2"></div>
+                    </div>
+                    <br>
+                </div>
+                <div id="continuar">Continuar</div>
+            </div>
+        </div>
+    </section>
+    <section>
+      <div class="footer">
+      <br>
+      <br>
+      <br>
+        <div id="term">
+          <div id="contact">Contact Us</div>
+          <div id="terms">Terms & Conditions</div>          
+        </div>
+        <img src="img/small_logo.png" alt="" id="img">
+      </div>
     </section>
 </body>
 
