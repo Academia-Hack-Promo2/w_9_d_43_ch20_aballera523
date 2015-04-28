@@ -18,15 +18,17 @@ section {
     height: 510px;
 }
 
-.pedido{
+.pedido {
+    margin: 0 auto;
+    position: relative;
+    padding: 0;    
+    text-align: center;
     width: 640px;
     color: white;
 }
 
-.pedido,
-.comida,
-.footer {
-    margin: 0 auto;
+.comida, .footer {
+    margin-left: 4%;
     position: relative;
     padding: 0;    
     text-align: center;
